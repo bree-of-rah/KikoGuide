@@ -4,5 +4,112 @@
     "Difficulty": 0,
     "Type": 0,
     "Expansion": 1,
-    "Level": 60
+    "Level": 60,
+    "UnlockQuestID": 000000,
+    "TerritoryIDs": [000],
+    "Sections": [
+    {
+        "Type": 0,
+        "Name": "Magitek Predator",
+        "Phases": [
+        {
+            "Strategy": "Move away from others when marked with Magitek Missile. Prioritize killing the adds when they spawn.",
+            "Mechanics": [
+            {
+                "Name": "Magitek Claw",
+                "Description": "Targeted attack on Tank",
+                "Type": 0
+            },
+            {
+                "Name": "Magitek Ray",
+                "Description": "Linear high-damage attack",
+                "Type": 2
+            },
+            {
+                "Name": "Magitek Missle",
+                "Description": "Targeted high-damage explosion on marked players.",
+                "Type": 6
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "Type": 0,
+        "Name": "Armored Weapon",
+        "Phases": [
+        {
+            "Strategy": "Take no actions or movement during Dynamic Sensory Jammer. Be ready with heals and AoE damage during Distress Beacon adds.",
+            "Mechanics": [
+            {
+                "Name": "Launcher",
+                "Description": "Group-wide AoE",
+                "Type": 4
+            },
+            {
+                "Name": "Dynamic Sensory Jammer",
+                "Description": "Damages the player for any actions they take while the debuff is active, including movement.",
+                "Type": 10
+            },
+            {
+                "Name": "Magitek Bit",
+                "Description": "Summoned Bits around room create a checkerboard AoE before disappearing.",
+                "Type": 7
+            },
+            {
+                "Name": "Distress Beacon",
+                "Description": "Summons many low-HP adds. Tank damage is significant due to quantity of adds.",
+                "Type": 7
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "Type": 0,
+        "Name": "The Griffin",
+        "Phases": [
+        {
+            "Strategy": "When The Griffin casts Lionshead, kill the sword in the middle and stand in the now-vacant space. Be ready to chase boss to avoid the cleave from Sanguine Blade. Turn around during Flash Powder, and be ready to break party members out of restraints.",
+            "Mechanics": [
+            {
+                "Name": "Beak of the Griffin",
+                "Description": "Room-wide AoE attack",
+                "Type": 4
+            },
+            {
+                "Name": "Flash Powder",
+                "Description": "Turn away from boss to avoid Stun and Accuracy Down debuffs.",
+                "Type": 4
+            },
+            {
+                "Name": "Sanguine Blade",
+                "Description": "Boss leaps to one side of the room and cleaves the room in front of him for high damage.",
+                "Type": 2
+            },
+            {
+                "Name": "Lionshead",
+                "Description": "Swords rain down, damaging nearby players. After finishing cast, boss does room-wide AoE, and swords become targetable. Destroy large sword in middle.",
+                "Type": 10
+            },
+            {
+                "Name": "Big Foot",
+                "Description": "Marks a player for a knockback",
+                "Type": 6
+            },
+            {
+                "Name": "Restraint Collar",
+                "Description": "Restrains the healer, preventing all action. Kill restraints to release healer.",
+                "Type": 6
+            },
+            {
+                "Name": "Claw of the Griffin",
+                "Description": "High-damage attack on Tank",
+                "Type": 0
+            }
+            ]
+        }
+        ]
+    }
+    ]
 }
